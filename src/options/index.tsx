@@ -1,4 +1,4 @@
-export { default as OptionContext } from "./OptionContext";
+export { useOptionContext } from "./OptionContext";
 export { default as Selector } from "./Selector";
 
 export const TopOption = {

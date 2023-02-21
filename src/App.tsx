@@ -3,6 +3,7 @@ import Avatar, { AvatarStyle } from "./avatar";
 export { default as Avatar, AvatarStyle } from "./avatar";
 
 import { default as PieceComponent } from "./avatar/piece";
+import { OptionProvider } from "./options/OptionContext";
 
 export interface Props {
   avatarStyle: string;
@@ -33,12 +34,8 @@ export default function AvatarComponent({
   viewBox,
 }: Props) {
   return (
-    <PieceComponent
-      avatarStyle={avatarStyle as AvatarStyle}
-      style={style}
-      pieceType={"top"}
-      pieceSize={"250"}
-      viewBox={viewBox}
-    />
+    <OptionProvider>
+      <Avatar avatarStyle="circle" />
+    </OptionProvider>
   );
 }
