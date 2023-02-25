@@ -4,8 +4,6 @@ import { uniqueId } from "lodash";
 import Colors from "./Colors";
 
 export default function Hoodie() {
-  const optionValue = "Hoodie";
-
   const path1 = uniqueId("react-path-");
   const mask1 = uniqueId("react-mask-");
 
@@ -45,3 +43,5 @@ export default function Hoodie() {
     </g>
   );
 }
+
+Hoodie.displayName = "Hoodie";

@@ -1,8 +1,6 @@
 import * as React from "react";
 
 export default function SadConcernedNatural() {
-  const optionValue = "SadConcernedNatural";
-
   return (
     <g id="Eyebrow/Natural/Sad-Concerned-Natural" fillOpacity="0.599999964">
       <path
@@ -18,3 +16,5 @@ export default function SadConcernedNatural() {
     </g>
   );
 }
+
+SadConcernedNatural.displayName = "SadConcernedNatural";

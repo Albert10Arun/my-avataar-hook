@@ -1,8 +1,6 @@
 import * as React from "react";
 
 export default function FlatNatural() {
-  const optionValue = "FlatNatural";
-
   return (
     <g id="Eyebrow/Natural/Flat-Natural" fillOpacity="0.599999964">
       <path
@@ -18,3 +16,5 @@ export default function FlatNatural() {
     </g>
   );
 }
+
+FlatNatural.displayName = "FlatNatural";

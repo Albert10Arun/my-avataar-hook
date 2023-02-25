@@ -4,8 +4,6 @@ import { uniqueId } from "lodash";
 import Colors from "./Colors";
 
 export default function BeardMajestic() {
-  const optionValue = "BeardMajestic";
-
   const mask1 = uniqueId("react-mask-");
   const path1 = uniqueId("react-path-");
 
@@ -33,3 +31,5 @@ export default function BeardMajestic() {
     </g>
   );
 }
+
+BeardMajestic.displayName = "BeardMajestic";

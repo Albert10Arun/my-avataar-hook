@@ -7,8 +7,6 @@ type Props = {
   children: JSX.Element;
 };
 export default function Turban({ children }: Props) {
-  const optionValue = "Turban";
-
   const filter1 = uniqueId("react-filter-");
   const mask1 = uniqueId("react-mask-");
   const mask2 = uniqueId("react-mask-");
@@ -104,3 +102,5 @@ export default function Turban({ children }: Props) {
     </g>
   );
 }
+
+Turban.displayName = "Turban";

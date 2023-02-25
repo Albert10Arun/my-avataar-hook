@@ -1,8 +1,6 @@
 import * as React from "react";
 
 export default function FrownNatural() {
-  const optionValue = "FrownNatural";
-
   return (
     <g id="Eyebrow/Natural/Frown-Natural" fillOpacity="0.599999964">
       <path
@@ -17,3 +15,5 @@ export default function FrownNatural() {
     </g>
   );
 }
+
+FrownNatural.displayName = "FrownNatural";

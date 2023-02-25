@@ -2,8 +2,6 @@ import * as React from "react";
 import { uniqueId } from "lodash";
 
 export default function Round() {
-  const optionValue = "Round";
-
   const path1 = uniqueId("react-path-");
   const filter1 = uniqueId("react-filter-");
 
@@ -51,3 +49,5 @@ export default function Round() {
     </g>
   );
 }
+
+Round.displayName = "Round";

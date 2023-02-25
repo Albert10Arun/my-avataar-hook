@@ -1,8 +1,6 @@
 import * as React from "react";
 
 export default function Default() {
-  const optionValue = "Default";
-
   return (
     <g id="Eyebrow/Outline/Default" fillOpacity="0.599999964">
       <g id="I-Browse" transform="translate(12.000000, 6.000000)">
@@ -21,3 +19,5 @@ export default function Default() {
     </g>
   );
 }
+
+Default.displayName = "Default";

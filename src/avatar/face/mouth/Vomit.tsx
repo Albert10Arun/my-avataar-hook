@@ -2,8 +2,6 @@ import * as React from "react";
 import { uniqueId } from "lodash";
 
 export default function Vomit() {
-  const optionValue = "Vomit";
-
   const path1 = uniqueId("react-path-");
   const path2 = uniqueId("react-path-");
   const mask1 = uniqueId("react-mask-");
@@ -86,3 +84,5 @@ export default function Vomit() {
     </g>
   );
 }
+
+Vomit.displayName = "Vomit";

@@ -1,9 +1,6 @@
-import * as React from "react";
 import { uniqueId } from "lodash";
 
 export default function Squint() {
-  const optionValue = "Squint";
-
   const path1 = uniqueId("react-path-");
   const path2 = uniqueId("react-path-");
   const mask1 = uniqueId("react-mask-");
@@ -52,3 +49,5 @@ export default function Squint() {
     </g>
   );
 }
+
+Squint.displayName = "Squint";

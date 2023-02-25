@@ -1,8 +1,6 @@
 import * as React from "react";
 
 export default function SadConcerned() {
-  const optionValue = "SadConcerned";
-
   return (
     <g
       id="Eyebrow/Outline/Sad-Concerned"
@@ -22,3 +20,5 @@ export default function SadConcerned() {
     </g>
   );
 }
+
+SadConcerned.displayName = "SadConcerned";

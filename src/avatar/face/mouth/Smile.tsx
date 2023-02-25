@@ -2,8 +2,6 @@ import * as React from "react";
 import { uniqueId } from "lodash";
 
 export default function Smile() {
-  const optionValue = "Smile";
-
   const path1 = uniqueId("react-path-");
   const mask1 = uniqueId("react-mask-");
 
@@ -51,3 +49,5 @@ export default function Smile() {
     </g>
   );
 }
+
+Smile.displayName = "Smile";

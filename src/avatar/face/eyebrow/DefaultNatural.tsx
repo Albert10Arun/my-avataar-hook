@@ -1,8 +1,6 @@
 import * as React from "react";
 
 export default function DefaultNatural() {
-  const optionValue = "DefaultNatural";
-
   return (
     <g id="Eyebrow/Natural/Default-Natural" fillOpacity="0.599999964">
       <path
@@ -18,3 +16,5 @@ export default function DefaultNatural() {
     </g>
   );
 }
+
+DefaultNatural.displayName = "DefaultNatural";

@@ -1,4 +1,3 @@
-import * as React from "react";
 import { uniqueId } from "lodash";
 
 import { GraphicOption, Selector } from "../../options";
@@ -8,7 +7,6 @@ export interface Props {
 }
 
 export function Skull({ maskID }: Props) {
-  const optionValue = "Skull";
   return (
     <g
       id="Clothing/Graphic/Skull"
@@ -22,9 +20,9 @@ export function Skull({ maskID }: Props) {
     </g>
   );
 }
+Skull.displayName = "Skull";
 
 export function SkullOutline({ maskID }: Props) {
-  const optionValue = "SkullOutline";
   return (
     <g
       id="Clothing/Graphic/Skull-Outline"
@@ -59,9 +57,8 @@ export function SkullOutline({ maskID }: Props) {
     </g>
   );
 }
-
+SkullOutline.displayName = "SkullOutline";
 export function Bat({ maskID }: Props) {
-  const optionValue = "Bat";
   return (
     <g
       id="Clothing/Graphic/Bat"
@@ -76,9 +73,8 @@ export function Bat({ maskID }: Props) {
   );
 }
 
+Bat.displayName = "Bat";
 export function Cumbia({ maskID }: Props) {
-  const optionValue = "Cumbia";
-
   return (
     <g
       id="Clothing/Graphic/Cumbia"
@@ -139,9 +135,8 @@ export function Cumbia({ maskID }: Props) {
   );
 }
 
+Cumbia.displayName = "Cumbia";
 export function Deer({ maskID }: Props) {
-  const optionValue = "Deer";
-
   return (
     <g
       id="Clothing/Graphic/Deer"
@@ -156,9 +151,9 @@ export function Deer({ maskID }: Props) {
   );
 }
 
-export function Diamond({ maskID }: Props) {
-  const optionValue = "Diamond";
+Deer.displayName = "Deer";
 
+export function Diamond({ maskID }: Props) {
   return (
     <g
       id="Clothing/Graphic/Diamond"
@@ -193,10 +188,9 @@ export function Diamond({ maskID }: Props) {
     </g>
   );
 }
+Diamond.displayName = "Diamond";
 
 export function Hola({ maskID }: Props) {
-  const optionValue = "Hola";
-
   return (
     <g
       id="Clothing/Graphic/Hola"
@@ -210,10 +204,9 @@ export function Hola({ maskID }: Props) {
     </g>
   );
 }
+Hola.displayName = "Hola";
 
 export function Selena({ maskID }: Props) {
-  const optionValue = "Selena";
-
   return (
     <g
       id="Clothing/Graphic/Selena"
@@ -243,10 +236,9 @@ export function Selena({ maskID }: Props) {
     </g>
   );
 }
+Selena.displayName = "Selena";
 
 export function Pizza({ maskID }: Props) {
-  const optionValue = "Pizza";
-
   return (
     <g
       id="Clothing/Graphic/Pizza"
@@ -277,9 +269,8 @@ export function Pizza({ maskID }: Props) {
   );
 }
 
+Pizza.displayName = "Pizza";
 export function Resist({ maskID }: Props) {
-  const optionValue = "Resist";
-
   return (
     <g
       id="Clothing/Graphic/Resist"
@@ -335,8 +326,8 @@ export function Resist({ maskID }: Props) {
   );
 }
 
+Resist.displayName = "Resist";
 export function Bear({ maskID }: Props) {
-  const optionValue = "Bear";
   const mask1 = uniqueId("react-mask-");
   const path1 = uniqueId("react-path-");
 
@@ -369,6 +360,7 @@ export function Bear({ maskID }: Props) {
     </g>
   );
 }
+Bear.displayName = "Bear";
 
 export default function Graphics({ maskID }: Props) {
   return (

@@ -1,8 +1,7 @@
-import * as React from 'react'
+import * as React from "react";
 
-export default function Blank () {
-  const  optionValue = 'Blank'
+export default function Blank() {
+  return null;
+}
 
- 
-    return null
-  }
+Blank.displayName = "Blank";

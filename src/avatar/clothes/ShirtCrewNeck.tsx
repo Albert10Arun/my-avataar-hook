@@ -3,7 +3,6 @@ import { uniqueId } from "lodash";
 import Colors from "./Colors";
 
 export default function ShirtCrewNeck() {
-  const optionValue = "ShirtCrewNeck";
   const path1 = uniqueId("react-path-");
   const mask1 = uniqueId("react-mask-");
 
@@ -44,3 +43,5 @@ export default function ShirtCrewNeck() {
     </g>
   );
 }
+
+ShirtCrewNeck.displayName = "ShirtCrewNeck";

@@ -1,8 +1,6 @@
 import * as React from "react";
 
 export default function UpDown() {
-  const optionValue = "UpDown";
-
   return (
     <g
       id="Eyebrow/Outline/Up-Down"
@@ -21,3 +19,5 @@ export default function UpDown() {
     </g>
   );
 }
+
+UpDown.displayName = "UpDown";

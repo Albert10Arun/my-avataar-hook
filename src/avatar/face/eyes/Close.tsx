@@ -1,8 +1,6 @@
 import * as React from "react";
 
 export default function Close() {
-  const optionValue = "Close";
-
   return (
     <g
       id="Eyes/Closed-😌"
@@ -22,3 +20,5 @@ export default function Close() {
     </g>
   );
 }
+
+Close.displayName = "Close";

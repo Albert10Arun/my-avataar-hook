@@ -4,8 +4,6 @@ import { uniqueId } from "lodash";
 import Colors from "./Colors";
 
 export default function MoustacheMagnum() {
-  const optionValue = "MoustacheMagnum";
-
   const mask1 = uniqueId("react-mask-");
   const path1 = uniqueId("react-path-");
 
@@ -33,3 +31,5 @@ export default function MoustacheMagnum() {
     </g>
   );
 }
+
+MoustacheMagnum.displayName = "MoustacheMagnum";

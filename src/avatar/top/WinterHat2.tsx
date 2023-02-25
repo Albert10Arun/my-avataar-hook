@@ -7,7 +7,6 @@ type Props = {
   children: JSX.Element;
 };
 export default function WinterHat2({ children }: Props) {
-  const optionValue = "WinterHat2";
   const mask1 = uniqueId("react-mask-");
   const mask2 = uniqueId("react-mask-");
   const path1 = uniqueId("react-path-");
@@ -113,3 +112,5 @@ export default function WinterHat2({ children }: Props) {
     </g>
   );
 }
+
+WinterHat2.displayName = "WinterHat2";

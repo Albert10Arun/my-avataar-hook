@@ -4,8 +4,6 @@ import { uniqueId } from "lodash";
 import Colors from "./Colors";
 
 export default function Overall() {
-  const optionValue = "Overall";
-
   const path1 = uniqueId("react-path-");
   const mask1 = uniqueId("react-mask-");
 
@@ -46,3 +44,5 @@ export default function Overall() {
     </g>
   );
 }
+
+Overall.displayName = "Overall";

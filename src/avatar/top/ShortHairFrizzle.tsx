@@ -7,8 +7,6 @@ type Props = {
   children: JSX.Element;
 };
 export default function ShortHairFrizzle({ children }: Props) {
-  const optionValue = "ShortHairFrizzle";
-
   const filter1 = uniqueId("react-filter-");
   const mask1 = uniqueId("react-mask-");
   const mask2 = uniqueId("react-mask-");
@@ -73,3 +71,5 @@ export default function ShortHairFrizzle({ children }: Props) {
     </g>
   );
 }
+
+ShortHairFrizzle.displayName = "ShortHairFrizzle";

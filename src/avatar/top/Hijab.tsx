@@ -8,8 +8,6 @@ type Props = {
 };
 
 export default function Hijab({ children }: Props) {
-  const optionValue = "Hijab";
-
   const filter1 = uniqueId("react-filter-");
   const mask1 = uniqueId("react-mask-");
   const mask2 = uniqueId("react-mask-");
@@ -92,3 +90,5 @@ export default function Hijab({ children }: Props) {
     </g>
   );
 }
+
+Hijab.displayName = "Hijab";

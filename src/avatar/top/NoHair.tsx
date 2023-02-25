@@ -8,8 +8,6 @@ type Props = {
 };
 
 export default function NoHair({ children }: Props) {
-  const optionValue = "NoHair";
-
   const filter1 = uniqueId("react-filter-");
   const mask1 = uniqueId("react-mask-");
   const path1 = uniqueId("react-path-");
@@ -57,3 +55,5 @@ export default function NoHair({ children }: Props) {
     </g>
   );
 }
+
+NoHair.displayName = "NoHair";

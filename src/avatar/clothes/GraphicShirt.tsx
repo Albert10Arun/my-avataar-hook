@@ -5,8 +5,6 @@ import Colors from "./Colors";
 import Graphics from "./Graphics";
 
 export default function GraphicShirt() {
-  const optionValue = "GraphicShirt";
-
   const path1 = uniqueId("react-path-");
   const mask1 = uniqueId("react-mask-");
 
@@ -32,3 +30,5 @@ export default function GraphicShirt() {
     </g>
   );
 }
+
+GraphicShirt.displayName = "GraphicShirt";

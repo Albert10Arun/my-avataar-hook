@@ -1,8 +1,6 @@
 import * as React from "react";
 
 export default function UpDownNatural() {
-  const optionValue = "UpDownNatural";
-
   return (
     <g id="Eyebrow/Natural/Up-Down-Natural" fillOpacity="0.599999964">
       <path
@@ -17,3 +15,5 @@ export default function UpDownNatural() {
     </g>
   );
 }
+
+UpDownNatural.displayName = "UpDownNatural";

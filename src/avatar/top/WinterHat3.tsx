@@ -9,7 +9,6 @@ type Props = {
 };
 
 export default function WinterHat3({ children }: Props) {
-  const optionValue = "WinterHat3";
   const filter1 = uniqueId("react-filter-");
   const mask1 = uniqueId("react-mask-");
   const mask2 = uniqueId("react-mask-");
@@ -86,3 +85,5 @@ export default function WinterHat3({ children }: Props) {
     </g>
   );
 }
+
+WinterHat3.displayName = "WinterHat3";

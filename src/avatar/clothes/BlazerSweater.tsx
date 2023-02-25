@@ -1,9 +1,7 @@
 import * as React from "react";
 import { uniqueId } from "lodash";
 
-export default function  BlazerSweater() {
-  const optionValue = "BlazerSweater";
-
+export default function BlazerSweater() {
   const path1 = uniqueId("react-path-");
   const mask1 = uniqueId("react-mask-");
 
@@ -72,3 +70,4 @@ export default function  BlazerSweater() {
     </g>
   );
 }
+BlazerSweater.displayName = "BlazerSweater";

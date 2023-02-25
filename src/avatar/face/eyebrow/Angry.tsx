@@ -1,8 +1,6 @@
 import * as React from "react";
 
 export default function Angry() {
-  const optionValue = "Angry";
-
   return (
     <g id="Eyebrow/Outline/Angry" fillOpacity="0.599999964" fillRule="nonzero">
       <path
@@ -17,3 +15,5 @@ export default function Angry() {
     </g>
   );
 }
+
+Angry.displayName = "Angry";

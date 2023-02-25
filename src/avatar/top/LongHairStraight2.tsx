@@ -7,7 +7,6 @@ type Props = {
   children: JSX.Element;
 };
 export default function LongHairStraight2({ children }: Props) {
-  const optionValue = "LongHairStraight2";
   const mask1 = uniqueId("react-mask-");
   const mask2 = uniqueId("react-mask-");
   const path1 = uniqueId("react-path-");
@@ -60,3 +59,5 @@ export default function LongHairStraight2({ children }: Props) {
     </g>
   );
 }
+
+LongHairStraight2.displayName = "LongHairStraight2";

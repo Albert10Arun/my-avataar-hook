@@ -1,8 +1,6 @@
 import * as React from "react";
 
 export default function RaisedExcitedNatural() {
-  const optionValue = "RaisedExcitedNatural";
-
   return (
     <g id="Eyebrow/Natural/Raised-Excited-Natural" fillOpacity="0.599999964">
       <path
@@ -17,3 +15,5 @@ export default function RaisedExcitedNatural() {
     </g>
   );
 }
+
+RaisedExcitedNatural.displayName = "RaisedExcitedNatural";

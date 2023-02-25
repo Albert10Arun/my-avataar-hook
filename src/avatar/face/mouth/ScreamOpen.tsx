@@ -2,8 +2,6 @@ import * as React from "react";
 import { uniqueId } from "lodash";
 
 export default function ScreamOpen() {
-  const optionValue = "ScreamOpen";
-
   const path1 = uniqueId("react-path-");
   const mask1 = uniqueId("react-mask-");
 
@@ -55,3 +53,5 @@ export default function ScreamOpen() {
     </g>
   );
 }
+
+ScreamOpen.displayName = "ScreamOpen";

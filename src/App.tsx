@@ -1,9 +1,12 @@
+import { useContext, useState } from "react";
 import Avatar, { AvatarStyle } from "./avatar";
 
 export { default as Avatar, AvatarStyle } from "./avatar";
 
 import { default as PieceComponent } from "./avatar/piece";
-import { OptionProvider } from "./options/OptionContext";
+import AvatarForm from "./AvatarForm";
+import { allOptions } from "./options";
+import { OptionContext, OptionProvider } from "./options/OptionContext";
 
 export interface Props {
   avatarStyle: string;
@@ -34,8 +37,9 @@ export default function AvatarComponent({
   viewBox,
 }: Props) {
   return (
-    <OptionProvider>
+    <OptionProvider options={allOptions}>
       <Avatar avatarStyle="circle" />
+      <AvatarForm />
     </OptionProvider>
   );
 }

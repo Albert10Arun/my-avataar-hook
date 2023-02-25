@@ -7,8 +7,6 @@ type Props = {
   children: JSX.Element;
 };
 export default function ShortHairTheCaesarSidePart({ children }: Props) {
-  const optionValue = "ShortHairTheCaesarSidePart";
-
   const filter1 = uniqueId("react-filter-");
   const mask1 = uniqueId("react-mask-");
   const mask2 = uniqueId("react-mask-");
@@ -74,3 +72,5 @@ export default function ShortHairTheCaesarSidePart({ children }: Props) {
     </g>
   );
 }
+
+ShortHairTheCaesarSidePart.displayName = "ShortHairTheCaesarSidePart";

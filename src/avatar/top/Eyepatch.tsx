@@ -6,8 +6,6 @@ type Props = {
   children: JSX.Element;
 };
 export default function Eyepatch({ children }: Props) {
-  const optionValue = "Eyepatch";
-
   const mask1 = uniqueId("react-mask-");
   const path1 = uniqueId("react-path-");
 
@@ -34,3 +32,5 @@ export default function Eyepatch({ children }: Props) {
     </g>
   );
 }
+
+Eyepatch.displayName = "Eyepatch";

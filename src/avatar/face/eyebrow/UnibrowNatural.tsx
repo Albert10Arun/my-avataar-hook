@@ -1,8 +1,6 @@
 import * as React from "react";
 
 export default function UnibrowNatural() {
-  const optionValue = "UnibrowNatural";
-
   return (
     <g id="Eyebrow/Natural/Unibrow-Natural" fillOpacity="0.599999964">
       <path
@@ -18,3 +16,5 @@ export default function UnibrowNatural() {
     </g>
   );
 }
+
+UnibrowNatural.displayName = "UnibrowNatural";

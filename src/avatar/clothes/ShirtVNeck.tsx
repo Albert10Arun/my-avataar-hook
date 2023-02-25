@@ -4,7 +4,6 @@ import { uniqueId } from "lodash";
 import Colors from "./Colors";
 
 export default function ShirtVNeck() {
-  const optionValue = "ShirtVNeck";
   const path1 = uniqueId("react-path-");
   const mask1 = uniqueId("react-mask-");
 
@@ -29,3 +28,5 @@ export default function ShirtVNeck() {
     </g>
   );
 }
+
+ShirtVNeck.displayName = "ShirtVNeck";

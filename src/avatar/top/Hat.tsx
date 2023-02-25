@@ -8,8 +8,6 @@ type Props = {
 };
 
 export default function Hat({ children }: Props) {
-  const optionValue = "Hat";
-
   const filter1 = uniqueId("react-filter-");
   const mask1 = uniqueId("react-mask-");
   const mask2 = uniqueId("react-mask-");
@@ -97,3 +95,5 @@ export default function Hat({ children }: Props) {
     </g>
   );
 }
+
+Hat.displayName = "Hat";

@@ -1,5 +1,3 @@
-import * as React from "react";
-
 import { HatColorOption, Selector } from "../../options";
 
 export interface Props {

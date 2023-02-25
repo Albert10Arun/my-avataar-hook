@@ -6,7 +6,6 @@ type Props = {
   children: JSX.Element;
 };
 export default function LongHairFrida({ children }: Props) {
-  const optionValue = "LongHairFrida";
   const filter1 = uniqueId("react-filter-");
   const filter2 = uniqueId("react-filter-");
   const filter3 = uniqueId("react-filter-");
@@ -365,3 +364,5 @@ export default function LongHairFrida({ children }: Props) {
     </g>
   );
 }
+
+LongHairFrida.displayName = "LongHairFrida";

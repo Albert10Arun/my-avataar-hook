@@ -2,8 +2,6 @@ import * as React from "react";
 import { uniqueId } from "lodash";
 
 export default function Prescription01() {
-  const optionValue = "Prescription01";
-
   const filter1 = uniqueId("react-filter-");
 
   return (
@@ -70,3 +68,5 @@ export default function Prescription01() {
     </g>
   );
 }
+
+Prescription01.displayName = "Prescription01";

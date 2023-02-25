@@ -2,8 +2,6 @@ import * as React from "react";
 import { uniqueId } from "lodash";
 
 export default function Wayfarers() {
-  const optionValue = "Wayfarers";
-
   const path1 = uniqueId("react-path-");
   const path2 = uniqueId("react-path-");
   const filter1 = uniqueId("react-filter-");
@@ -122,3 +120,5 @@ export default function Wayfarers() {
     </g>
   );
 }
+
+Wayfarers.displayName = "Wayfarers";

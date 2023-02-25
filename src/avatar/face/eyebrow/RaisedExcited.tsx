@@ -1,8 +1,6 @@
 import * as React from "react";
 
 export default function RaisedExcited() {
-  const optionValue = "RaisedExcited";
-
   return (
     <g id="Eyebrow/Outline/Raised-Excited" fillOpacity="0.599999964">
       <g id="I-Browse" transform="translate(12.000000, 0.000000)">
@@ -21,3 +19,5 @@ export default function RaisedExcited() {
     </g>
   );
 }
+
+RaisedExcited.displayName = "RaisedExcited";
